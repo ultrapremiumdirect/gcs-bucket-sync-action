@@ -9,6 +9,10 @@ inputs:
   bucket:
     description: Bucket name
     required: true
+  directory:
+    description: Repository subdirectory name for sync
+    required: false
+    default: ''
   exclude:
     description: Regex for excluding files/dirs
     required: false
